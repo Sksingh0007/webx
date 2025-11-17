@@ -24,12 +24,12 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen relative">
       {/* Background */}
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-background">
+      <div className="absolute -top-20 z-[-2] h-screen w-screen bg-background">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(29,161,242,0.3),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(29,161,242,0.3),rgba(0,0,0,0))]"></div>
       </div>
 
       {/* Hero Section - More compact and impactful */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 sm:pt-24 sm:pb-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-12 sm:pt-40 sm:pb-16">
         <div className="text-center space-y-6">
           {/* <Badge
             variant="outline"
@@ -119,7 +119,7 @@ export default function LandingPage() {
       </section>
 
       {/* Lead Magnet Section - More prominent */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <Card className="border-2 border-primary/30 shadow-xl overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-10" />
           <CardHeader className="text-center space-y-4 pt-10 pb-6">
@@ -129,7 +129,7 @@ export default function LandingPage() {
                 Free Download
               </Badge>
             </div>
-            <CardTitle className="text-2xl sm:text-3xl lg:text-4xl leading-tight px-4">
+            <CardTitle className="text-2xl sm:text-3xl lg:text-3xl leading-tight px-4">
               AI + FutureTech Briefing: 7 Trends You Must Know in 2025
             </CardTitle>
             <CardDescription className="text-base sm:text-lg max-w-2xl mx-auto px-4">
