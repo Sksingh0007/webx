@@ -39,7 +39,7 @@ export default function LandingPage() {
             Launching 2025
           </Badge> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            <span className="bg-gradient-to-r from-primary via-primary to-primary/60 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary via-primary to-primary/60 bg-clip-text text-transparent">
               AI + FutureTech
             </span>
             <br />
@@ -119,29 +119,7 @@ export default function LandingPage() {
       </section>
 
       {/* Lead Magnet Section - More prominent */}
-      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <Card className="border-2 border-primary/30 shadow-xl overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-10" />
-          <CardHeader className="text-center space-y-4 pt-10 pb-6">
-            <div className="flex justify-center mb-2">
-              <Badge className="px-4 py-1.5 text-sm">
-                <Zap className="w-3 h-3 mr-1.5" />
-                Free Download
-              </Badge>
-            </div>
-            <CardTitle className="text-2xl sm:text-3xl lg:text-3xl leading-tight px-4">
-              AI + FutureTech Briefing: 7 Trends You Must Know in 2025
-            </CardTitle>
-            <CardDescription className="text-base sm:text-lg max-w-2xl mx-auto px-4">
-              Get our comprehensive analysis of the most important tech trends
-              shaping 2025. Free download, no spam.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex justify-center pb-10">
-           <EmailSignup />
-          </CardContent>
-        </Card>
-      </section>
+     
 
       {/* Digital Products Preview - Larger cards */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
@@ -244,6 +222,30 @@ export default function LandingPage() {
             </Link>
           </Button>
         </div>
+      </section>
+
+       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <Card className="border-2 bg-linear-to-r from-primary/25 to-primary/12 border-primary/30 shadow-xl overflow-hidden bg-">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-10" />
+          <CardHeader className="text-center space-y-4 pt-10 pb-6">
+            <div className="flex justify-center mb-2">
+              <Badge className="px-4 py-1.5 text-sm">
+                <Zap className="w-3 h-3 mr-1.5" />
+                Free Download
+              </Badge>
+            </div>
+            <CardTitle className="text-2xl sm:text-3xl lg:text-3xl leading-tight px-4">
+              AI + FutureTech Briefing: 7 Trends You Must Know in 2025
+            </CardTitle>
+            <CardDescription className="text-base sm:text-lg max-w-2xl mx-auto px-4">
+              Get our comprehensive analysis of the most important tech trends
+              shaping 2025. Free download, no spam.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex justify-center pb-10">
+           <EmailSignup />
+          </CardContent>
+        </Card>
       </section>
 
       {/* Latest Articles Preview - More compact */}
